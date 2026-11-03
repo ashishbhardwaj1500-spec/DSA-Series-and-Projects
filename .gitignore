@@ -1,0 +1,48 @@
+
+# =====================================
+# DSA SERIES - GITIGNORE
+# =====================================
+
+# Private ATM credentials and data
+**/credential.h
+**/balance
+**/balance.txt
+
+# JetBrains IDE settings (CLion / IntelliJ)
+.idea/
+
+# CMake build directories
+cmake-build-*/
+build/
+cmake-build/
+
+# Compiled executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Static and shared libraries
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Debug and temporary files
+*.pdb
+*.ilk
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor temporary files
+*.swp
+*.swo
+*~
